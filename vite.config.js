@@ -6,4 +6,12 @@ export default {
         overlay: true, 
       },
     },
+    build:{
+      rollupOptions:{
+        input:{
+          main:'./index.html',
+          film:'./film.html',
+        },
+      },
+    },
   };
