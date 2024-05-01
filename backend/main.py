@@ -20,3 +20,26 @@ async def film(id: int):
 async def film(id:int):
     with open("ui/dist/film.html")as file:
         return file.read()
+    
+   #if things were working correctly i would have something like this:
+
+#db querying
+#    @app.get("/api/v1/films")
+# async def film():
+#     sarah taught me a cool trick:
+# simplify_ur_life = []
+# simplified_life =  response.get(films)
+#for simplified_life in simplify_ur_life:
+# films_simple = {
+# 'film':simplified_life.get('film'),
+#'director':simplified_life.get('director'),
+#etc...
+#}
+#etc...
+
+
+#for deleting
+    # @app.delete("/api/v1/film/{id...?}")
+    #async def delete_film(name of film to delete):
+    #film =  await model_.get(the film)
+    # etc etc
