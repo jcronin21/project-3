@@ -22,9 +22,8 @@ function FilmView() {
                     <p>{film.description}</p>
                 </div>
             ) : (
-                <p>Loading film data...</p>
+                <p>Loading film info...</p>
             )}
-            <a href="/">Back to list</a>
         </div>
     );
 }

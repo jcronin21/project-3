@@ -8,10 +8,9 @@ export default {
     },
     build:{
       rollupOptions:{
-        external:['index.html'],
         input:{
-          main:'./dist/main.jsx',
-          film:'./dist/film.jsx',
+          main:'main.jsx',
+          film:'FilmView.jsx',
         },
       },
     },
